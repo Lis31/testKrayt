@@ -1,0 +1,530 @@
+
+
+// Стили слайдера
+
+
+.carousel {
+  
+}
+
+.carousel__item-header {
+    margin: 0;     
+    color: #000000;
+    padding-top: 85px;
+    font-size: 48px;
+    font-weight: normal;
+    font-family: "Open Sans Light", sans-serif;
+    margin-bottom: 81px;
+}
+.carousel__item{
+    background: #F7F7F7;    
+    text-align: center;
+    height: 515px !important;
+}
+
+.carousel__item-block {
+  padding-left: 7% !important;
+}
+
+
+.carousel__item-block:first-child {
+  padding-left: 0 !important;
+  padding-right: 30px !important;
+}
+
+.carousel-indicators {
+  position: absolute !important;
+  top: 430px !important;
+  left: 51% !important;
+  height: 20px !important;
+}
+
+.carousel-indicators__item {
+  border-color: #2196F3 !important;
+  margin-right: 24px !important;
+}
+
+.carousel-indicators > .active {
+  background-color: #2196F3 !important;
+}
+
+.carousel__block-info {
+  display: inline-block !important;
+  vertical-align: middle;
+  text-align: left;
+  margin-left: 16px;
+  margin-top: -20px;
+}
+
+.carousel__block-header {
+  font: 20px ' Opens Sans Regular', sans-serif;
+  color: #2196F3;
+}
+
+.carousel__block-text {
+  font: 14px 'Open Sans Regular', sans-serif;
+  color: #000;
+}
+
+@media (max-width: 1188px) {
+  .carousel__item-block {
+    padding-left: 0 !important;
+  }
+
+  .carousel__item-block:first-child {
+    padding-right: 0 !important;
+  }
+
+  .carousel__block-info {
+    margin-left: 5px;
+    margin-top: 0;
+  }
+
+  
+}
+
+@media (max-width: 981px) {
+  .carousel__item-header {
+    font-size: 36px;
+    padding-top: 20px;
+    margin-bottom: 40px;
+  }
+
+}
+
+@media (max-width: 580px) {
+  .carousel__item-header {
+    font-size: 24px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  .carousel__item-block {
+    width: 90% !important;
+    margin-bottom: 0 !important;
+  }
+
+  .carousel__block-info {
+    width: 50px;
+    margin-left: 5px;
+    margin-top: 0;
+  }
+
+  .carousel__block-header {
+    font-size: 14px;
+  }
+
+  .carousel__block-text {
+    font-size: 12px !important;
+  }
+
+}
+
+
+
+// Таблица 
+
+
+.seminar-programm__header {
+  font: 48px 'Open Sans Light', sans-serif;
+  color: #000;
+  margin-bottom: 36px;
+  margin-top: 48px;
+}
+
+.table {
+  font: 14px 'Open Sans Regular', sans-serif;
+  color: #000;
+  max-width: 1168px !important;
+  margin: 0 auto;
+}
+
+.table__header-row {
+  text-transform: uppercase;
+  font: 14px 'Open Sans Regular', sans-serif;
+  color: #2196F3;
+  height: 41px !important;
+  border-bottom: 2px solid #2196F3;
+}
+
+.table__header:first-child {
+   padding-left: 3.5% !important;
+}
+
+
+.row_2 {
+  height: 91px;
+}
+
+.row_3 {
+  height: 90px;
+}
+
+.row_4 {
+  height: 180px;
+}
+
+.row_5 {
+  height: 180px;
+}
+.row_6 {
+  height: 110px;
+}
+.row_7 {
+  height: 170px;
+}
+.row_8 {
+  height: 130px;
+}
+.row_9 {
+  height: 90px;
+}
+
+.row_10 {
+  height: 180px;
+}
+
+.row_11 {
+  height: 108px;
+}
+.row_12 {
+  height: 90px;
+}
+.table__time {
+  width: 24.5%;
+  padding-left: 3.5% !important;
+  
+}
+
+
+.table__row:last-child {
+  border-bottom: 1px solid #E4E4E4 !important;
+}
+
+.table__speaker-foto, {
+  vertical-align: middle !important;
+
+}
+.table__report-theme {
+  height: 88px;
+  
+}
+.table__speaker-name, .table__report-heading {
+  color: #2196F3;
+}
+
+.table__speaker {
+  width: 14%;
+  vertical-align: middle !important;
+}
+
+.table__registry-btn {
+  width: 285px;
+  height: 53px;
+  background-color: rgba(33,150,243, 0.8);
+  color: #FFF;
+  font: 18px 'Open Sans', sans-serif;
+  font-weight: normal;
+  vertical-align: middle;
+  border-radius: 0 !important;
+  text-decoration: none;
+  display: block;
+  margin-top: 42px;
+  border: none;
+}
+
+.table__registry-btn:hover {
+  text-decoration: none;
+  color: #FFF;
+  background-color: rgba(33,150,243, 1);
+}
+
+.table__registry-btn:active {
+  text-decoration: none;
+  color: #FFF;
+  background-color: rgba(33,150,243, 0.6);
+  outline: none;
+}
+
+.table__registry-btn:focus{
+  text-decoration: none;
+  color: #FFF;
+  outline: none;
+}
+
+@media (max-width: 768px) {
+  .seminar-programm__header {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 36px;
+  }
+  
+  .table {
+    font-size: 12px;
+    margin-left: 0 !important;
+  }
+
+  .table th {
+    font-size: 12px !important;
+  }
+
+  .table tr {
+    padding: 2px !important;
+  }
+
+  .table__registry-btn {
+    width: 185px;
+    height: 35px;
+    font-size: 14px;
+    margin-top: 20px;
+  }
+
+}
+
+@media (max-width: 350px) {
+  .table td {
+    font-size: 10px !important;
+  }
+}
+
+
+
+/* Таймер */
+
+.counter-section {
+  height: 553px;
+}
+.counter-section__image{
+  margin-top: 74px;
+  // max-width: 100%;
+  height: inherit;
+  width: 100%;
+}
+
+.counter {
+  width: 50%;
+  position: absolute;
+  top: 200px;
+  left: 25%;
+  color: #FFF;
+  text-align: center;
+}
+
+
+.counter__register-text {
+  font: 20px 'Open Sans', sans-serif;
+  margin-top: 25px;
+  margin-bottom: 26px;
+}
+
+.counter__register-anchor {
+  color: rgba(33,150,243, 0.8);
+  text-decoration: none;
+  border-bottom: 1px dotted rgb(33,150,243);
+}
+
+.counter__register-anchor:hover {
+  color: rgba(33,150,243, 1);
+  text-decoration: none;
+}
+
+.counter__register-anchor:active {
+  color: rgba(33,150,243, 0.6);
+}
+
+.counter__faster-text {
+  font: 30px 'Open Sans', sans-serif;
+  margin-bottom: 45px;
+}
+
+.countdown__heading {
+  font: 20px 'Open Sans', sans-serif;
+}
+
+.countdown {
+  list-style:none;
+  margin:6px 0 0 0;
+  padding:0;
+  display: block;
+}
+
+.countdown__text {
+  font: 14px 'Open Sans', sans-serif !important;
+  color: #FFF;
+  margin: 0;
+}
+
+.seperator {
+  color: RGB(33,150,243);
+  font: 60px 'Open Sans Extrabold';
+  vertical-align:top;
+}
+  
+.countdown li {
+  display: inline-block;
+}
+
+/* здесь дни, часы, минуты, секунды */
+.days, .hours, .minutes, .seconds {
+  width: 100%;
+  color: RGB(33,150,243);
+  font: 60px 'Open Sans Extrabold';
+  display:inline-block;
+  margin-right: 40px !important;
+}
+
+.footer_bottom {
+  width: 100%;
+  float: left;
+  clear: both;
+  height: 8px;
+  background: linear-gradient(to bottom, #323232, #272727);
+  
+}
+
+@media (max-width: 1150px) {
+  .counter-section {
+    height: 50%;
+  }
+
+  .counter {
+    top: 25%;
+  }
+
+  .counter__register-text {
+    font-size: 18px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+  }
+
+  .counter__faster-text {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .countdown__heading {
+    font-size: 18px;
+  }
+
+  .seperator, .days, .hours, .minutes, .seconds {
+    font-size: 36px;
+  }
+
+
+}
+
+@media (max-width: 768px) {
+
+  .counter-section {
+    height: 300px !important;
+  }
+
+  .counter-section__image {
+    margin-top: 20px;
+  }
+
+  .counter {
+    top: 10%;
+  }
+
+  .counter__register-text {
+    font-size: 16px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+  }
+
+  .counter__faster-text {
+    font-size: 18px;
+    margin-bottom: 6px;
+  }
+
+  .countdown__heading {
+    font-size: 16px;
+  }
+
+  .seperator, .days, .hours, .minutes, .seconds {
+    font-size: 18px;
+  }
+
+  .days, .hours, .minutes, .seconds {
+    margin-right: 0 !important;
+  }
+
+}
+
+@media (max-width: 380px) {
+
+  .counter-section {
+    height: 320px !important;
+  }
+
+  .counter__register-text, .countdown__heading {
+    font-size: 14px;
+  }
+
+  .counter__faster-text {
+    font-size: 16px;
+  }
+
+  .seperator, .days, .hours, .minutes, .seconds {
+    font-size: 14px;
+    margin-left: -10px;
+  }
+
+  .countdown__text {
+    font-size: 12px;
+  }
+}
+
+  
+
+
+// Шрифты
+
+
+//OpenSans
+
+@font-face {
+  
+  font-family: "Open Sans"; 
+  
+  src: url("../fonts/opensans/OpenSans-Regular.ttf") format("truetype");
+  font-style: normal; 
+  font-weight: normal; 
+}
+
+@font-face {
+  
+  font-family: "Open Sans Bold"; 
+  
+  src: url("../fonts/opensans/opensansbold.ttf") format("truetype");
+  font-style: normal; 
+  font-weight: normal; 
+}
+
+@font-face {
+  
+  font-family: "Open Sans Light"; 
+  
+  src: url("../fonts/opensans/opensanslight.ttf") format("truetype");
+  font-style: normal; 
+  font-weight: normal; 
+}
+
+@font-face {
+  
+  font-family: "Open Sans Semibold"; 
+  
+  src: url("../fonts/opensans/opensanssemibold.ttf") format("truetype");
+  font-style: normal; 
+  font-weight: normal; 
+} 
+
+@font-face {
+  
+  font-family: "Open Sans Extrabold"; 
+  
+  src: url("../fonts/opensans/opensansextrabold.ttf") format("truetype");
+  font-style: normal; 
+  font-weight: normal; 
+} 

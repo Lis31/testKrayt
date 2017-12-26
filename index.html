@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Крайт</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="css/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+	<!-- Карусель -->
+<div id="myCarousel" class="carousel slide" data-interval="2000" data-ride="carousel">
+  <!-- Индикаторы для карусели -->
+  <ol class="carousel-indicators">
+    <!-- Перейти к 0 слайду карусели с помощью соответствующего индекса data-slide-to="0" -->
+    <li data-target="#myCarousel" data-slide-to="0" class="active carousel-indicators__item"></li>
+    <!-- Перейти к 1 слайду карусели с помощью соответствующего индекса data-slide-to="1" -->
+    <li data-target="#myCarousel" data-slide-to="1" class="carousel-indicators__item"></li>
+    <!-- Перейти к 2 слайду карусели с помощью соответствующего индекса data-slide-to="2" -->
+    <li data-target="#myCarousel" data-slide-to="2" class="carousel-indicators__item"></li>
+  </ol>   
+  <!-- Слайды карусели -->
+  <div class="carousel-inner">
+    <!-- Слайды создаются с помощью контейнера с классом item, внутри которого помещается содержимое слайда -->
+    <div class="active item carousel__item">
+      <h2 class="carousel__item-header">Кто поделится своим опытом на семинаре?</h2>
+      	<div class="container">
+      		<div class="row">
+
+      			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 carousel__item-block">
+
+      				<img class="carousel__block-img" src="img/Zaycev_foto.png" alt="">
+
+      				 <div class="carousel-heading carousel__block-info">
+				        <h3 class="carousel__block-header">Александр Зайцев</h3>
+				        <p class="carousel__block-text">Руководитель веб-студии "Крайт"</p>
+				      </div>
+
+      			</div>
+
+
+
+      			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 carousel__item-block">
+
+      				<img class="carousel__block-img" src="img/Kovalev_foto.png" alt="">
+     
+      				<div class="carousel-heading carousel__block-info">
+				        <h3 class="carousel__block-header">Александр Ковалев</h3>
+				        <p class="carousel__block-text">Менеджер по разработке веб-студии "Крайт"</p>
+				      </div>
+
+      			</div>
+
+      		</div>
+      	</div>
+    </div>
+    <!-- Слайд №2 -->
+    <div class="item carousel__item">
+      <h2 class="carousel__item-header">Кто поделится своим опытом на семинаре?</h2>
+      	<div class="container">
+      		<div class="row">
+
+      			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 carousel__item-block">
+
+      				<img class="carousel__block-img" src="img/Zaycev_foto.png" alt="">
+
+      				 <div class="carousel-heading carousel__block-info">
+				        <h3 class="carousel__block-header">Александр Зайцев</h3>
+				        <p class="carousel__block-text">Руководитель веб-студии "Крайт"</p>
+				      </div>
+
+      			</div>
+
+
+
+      			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 carousel__item-block">
+
+      				<img class="carousel__block-img" src="img/Kovalev_foto.png" alt="">
+     
+      				<div class="carousel-heading carousel__block-info">
+				        <h3 class="carousel__block-header">Александр Ковалев</h3>
+				        <p class="carousel__block-text">Менеджер по разработке веб-студии "Крайт"</p>
+				      </div>
+
+      			</div>
+
+      		</div>
+      	</div>
+    </div>
+    <!-- Слайд №3 -->
+    <div class="item carousel__item">
+      <h2 class="carousel__item-header">Кто поделится своим опытом на семинаре?</h2>
+      	<div class="container">
+      		<div class="row">
+
+      			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 carousel__item-block">
+
+      				<img class="carousel__block-img" src="img/Zaycev_foto.png" alt="">
+
+      				 <div class="carousel-heading carousel__block-info">
+				        <h3 class="carousel__block-header">Александр Зайцев</h3>
+				        <p class="carousel__block-text">Руководитель веб-студии "Крайт"</p>
+				      </div>
+
+      			</div>
+
+
+
+      			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 carousel__item-block">
+
+      				<img class="carousel__block-img" src="img/Kovalev_foto.png" alt="">
+     
+      				<div class="carousel-heading carousel__block-info">
+				        <h3 class="carousel__block-header">Александр Ковалев</h3>
+				        <p class="carousel__block-text">Менеджер по разработке веб-студии "Крайт"</p>
+				      </div>
+
+      			</div>
+
+      		</div>
+      	</div>
+    </div>
+		<br>
+
+    <!-- Таблица -->
+
+    <div class="container-fluid table-section">
+
+
+    		<div class="row">
+
+    			<div class="col-lg-12 ">
+    				
+    				<h1 class="seminar-programm__header text-center">Программа семинара</h1>
+
+						<table class="table table-responsive">
+
+
+							<thead>
+
+								<tr class="table__header-row row_1">
+									<td class="table__header">Время</th>
+									<td class="table__header">Тема доклада</th>
+									<td class="table__header">Докладчик</th>
+									<td class="table__header"></th>
+								</tr>
+
+							</thead>
+
+							<tbody>
+
+								<tr class="table__row row_2">
+									<td class="table__time">12:00-12:30<br>(30 минут)</td>
+									<td class="table__report-theme">Регистрация</td>
+									<td class="table__speaker-foto hidden-xs"></td>
+									<td class="table__speaker"><span class="table__speaker-name"></span></td>
+								</tr>
+								
+								<tr class="table__row row_3">
+									<td class="table__time">12:30-12:45<br>(15 минут)</td>
+									<td class="table__report-theme">Приветствие</td>
+									<td class="table__speaker-foto hidden-xs"><img src="img/Krukova_table_foto.png" alt=""></td>
+									<td class="table__speaker"><span class="table__speaker-name">Ольга Крюкова</span><br><span class="table__company-name">Веб-студия "Крайт"</span></td>
+								</tr>
+
+								<tr class="table__row row_4">
+									<td class="table__time">12:45-13:00<br>(15 минут)</td>
+									<td class="table__report-theme"><span class="table__report-heading">Рабочее пространство нашего времени</span><br>- корпоративный портал - что это? Зачем? Для кого?	<br>- избавляемся от 2 кг макулатуры на рабочем столе</td>
+									<td class="table__speaker-foto hidden-xs"><img src="img/Zaycev_Kovalev_table_foto.png" alt=""></td>
+									<td class="table__speaker"><span class="table__speaker-name">Александр Зайцев, <br> Александр Ковалев</span><br><span class="table__company-name">Веб-студия "Крайт"</span></td>
+								</tr>
+
+								<tr class="table__row row_5">
+									<td class="table__time">13:00-13:40<br>(40 минут)</td>
+									<td class="table__report-theme"><span class="table__report-heading">12 инструментов для отрыва от конкурентов: повышаем эффективность работы компании</span><br>- правильно выстраиваем взаимоотношения с клиентами и продаем в 2 раза больше конкурентов <br> - как перейти от несогласованности действий к полноценной командной работе</td>
+									<td class="table__speaker-foto hidden-xs"><img src="img/Zaycev_Kovalev_table_foto.png" alt=""></td>
+									<td class="table__speaker"><span class="table__speaker-name">Александр Зайцев, <br> Александр Ковалев</span><br><span class="table__company-name">Веб-студия "Крайт"</span></td>
+								</tr>
+
+								<tr class="table__row row_6">
+									<td class="table__time">13:40-14:10 <br>(30 минут)</td>
+									<td class="table__report-theme">Кофе-брейк <br>(Во время кофе-брейка у участников семинара будет возможность бесплатно зарегистрировать Битрикс24)</td>
+									<td class="table__speaker-foto hidden-xs"></td>
+									<td class="table__speaker"><span class="table__speaker-name"></span><br><span class="table__company-name"></span></td>
+								</tr>
+
+								<tr class="table__row row_7">
+									<td class="table__time">14:10-14:40 <br>(30 минут)</td>
+									<td class="table__report-theme"><span class="table__report-heading">Ваша компания глазами клиента</span><br>- как сделать работу с вами удобнее для клиента <br>- 10 причин из-за которых клиенты уйдут от вас</td>
+									<td class="table__speaker-foto hidden-xs"><img src="img/Zaycev_Kovalev_table_foto.png" alt=""></td>
+									<td class="table__speaker"><span class="table__speaker-name">Александр Зайцев, <br> Александр Ковалев</span><br><span class="table__company-name">Веб-студия "Крайт"</span></td>
+								</tr>
+
+								<tr class="table__row row_8">
+									<td class="table__time">14:40 - 15:10 <br>(30 минут)</td>
+									<td class="table__report-theme"><span class="table__report-heading">Повышаем лояльность клиентов и уровень продаж. CRM - индивидуальный подход к клиенту</span><br>- как повысить скорость обслуживания клиентов в 3 раза <br>- как потенциального клиента превратить в постоянного</td>
+									<td class="table__speaker-foto hidden-xs"><img src="img/Zaycev_table_foto.png" alt=""></td>
+									<td class="table__speaker"><span class="table__speaker-name">Александр Зайцев</span><br><span class="table__company-name">Веб-студия "Крайт"</span></td>
+								</tr>
+
+								<tr class="table__row row_9">
+									<td class="table__time">15:10-15:30 <br>(20 минут)</td>
+									<td class="table__report-theme">Вопросы и ответы</td>
+									<td class="table__speaker-foto hidden-xs"></td>
+									<td class="table__speaker"><span class="table__speaker-name"></span><span class="table__company-name"></span></td>
+								</tr>
+
+								<tr class="table__row row_10">
+									<td class="table__time">15:30-16:00 <br>(30 минут)</td>
+									<td class="table__report-theme"><span class="table__report-heading">Как правильно внедрять Битрикс 24</span><br>- борьба с возражениями сотрудников <br>- как мотивировать сотрудников использовать Битрикс24</td>
+									<td class="table__speaker-foto hidden-xs"><img src="img/Zaycev_Kovalev_table_foto.png" alt=""></td>
+									<td class="table__speaker"><span class="table__speaker-name">Александр Зайцев, <br> Александр Ковалев</span><br><span class="table__company-name">Веб-студия "Крайт"</span></td>
+								</tr>
+
+								<tr class="table__row row_11">
+									<td class="table__time">16:00-16:20 <br>(20 минут)</td>
+									<td class="table__report-theme"><span class="table__report-heading">История внедрения Битрикс24 в туроператора по Байкалу "Альфа-тур":</span><br>как с помощью бизнес-процессов мы решили проблему сезонного персонала</td>
+									<td class="table__speaker-foto hidden-xs"><img src="img/Zaycev_table_foto.png" alt=""></td>
+									<td class="table__speaker"><span class="table__speaker-name">Александр Зайцев</span><br><span class="table__company-name">Веб-студия "Крайт"</span></td>
+								</tr>
+
+								<tr class="table__row row_12">
+									<td class="table__time">16:20-16:50 <br>(30 минут)</td>
+									<td class="table__report-theme">Свободное общение со спикерами</td>
+									<td class="table__speaker-foto hidden-xs"></td>
+									<td class="table__speaker"><span class="table__speaker-name"></span><span class="table__company-name"></span></td>
+								</tr>
+
+							</tbody>
+
+						</table>
+						
+							<button class="table__registry-btn center-block">Зарегистрируйтесь</button></div>
+						
+						
+    			</div>
+
+    		</div>
+
+
+    </div>
+
+	<!-- Таймер -->
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-12 counter-section">
+				
+				<img src="img/counter_background.jpg" class="counter-section__image center-block" alt="">
+				<div class="counter center-block">
+					<p class="counter__register-text">Участие бесплатное, но необходима <a class="counter__register-anchor">регистрация</a></p>
+					<p class="counter__faster-text">СПЕШИТЕ, КОЛИЧЕСТВО МЕСТ ОГРАНИЧЕНО!</p>
+					<p class="countdown__heading">До окончания регистрации осталось:</p>
+
+					<ul class="countdown">
+		  			<li>
+		      		<span class="days">00</span>
+				     
+				      <p class="countdown__text">дней</p>
+		   			</li>
+				   <li class="seperator">:</li>
+				   <li>
+				      <span class="hours">00</span>
+				      <p class="countdown__text">часов</p>
+				   </li>
+				   <li class="seperator">:</li>
+				   <!-- <li>
+				      <span class="minutes">00</span>
+				      <p>минут</p>
+				   </li>
+				   <li class="seperator">:</li> -->
+				   <li>
+			      	<span class="seconds">00</span>
+			     		<p class="countdown__text">секунд</p>
+	   			 </li>
+				</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer_bottom"></div>
+	</div>
+
+
+	<script src="js/jQuery.2.0.0.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jQuery.downCount.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
