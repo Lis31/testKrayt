@@ -219,6 +219,7 @@
   color: #2196F3;
 }
 
+
 .table__speaker {
   width: 14%;
   vertical-align: middle !important;
@@ -290,6 +291,10 @@
 @media (max-width: 350px) {
   .table td {
     font-size: 10px !important;
+  }
+
+  .table__speaker-foto_xs {
+    width: 70%;
   }
 }
 
