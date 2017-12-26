@@ -13,7 +13,7 @@ $(document).ready(function(){
 		swipeRight: function() {
 			$(this).carousel("prev");
 		},
-		allowPageScroll: "vertical"
+		allowPageScroll: "horizontal"
 	});
 
 
