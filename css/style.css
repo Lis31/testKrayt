@@ -257,6 +257,9 @@
   color: #FFF;
   outline: none;
 }
+ .table__speaker-foto_xs {
+    width: 70% !important;
+  }
 
 @media (max-width: 768px) {
   .seminar-programm__header {
