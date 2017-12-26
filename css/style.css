@@ -99,6 +99,11 @@
     margin-bottom: 20px;
   }
 
+  .carousel-indicators__item {
+    transform: scale(3);
+    margin-right: 40px !important;
+  }
+
   .carousel__item-block {
     width: 90% !important;
     margin-bottom: 0 !important;
