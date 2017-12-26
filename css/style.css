@@ -99,15 +99,15 @@
     margin-bottom: 20px;
   }
 
+  .carousel-indicators__item {
+    -webkit-transform: scale(3) !important;
+            transform: scale(3) !important;
+    margin-right: 40px !important;
+  }
+
   .carousel__item-block {
     width: 90% !important;
     margin-bottom: 0 !important;
-  }
-  
-  .carousel-indicators__item {
-    -webkit-transform: scale(3);
-            transform: scale(3);
-    margin-right: 40px !important;
   }
 
   .carousel__block-info {
@@ -219,6 +219,7 @@
   color: #2196F3;
 }
 
+
 .table__speaker {
   width: 14%;
   vertical-align: middle !important;
@@ -290,6 +291,10 @@
 @media (max-width: 350px) {
   .table td {
     font-size: 10px !important;
+  }
+
+  .table__speaker-foto_xs {
+    width: 70%;
   }
 }
 
@@ -384,6 +389,7 @@
   float: left;
   clear: both;
   height: 8px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#323232), to(#272727));
   background: linear-gradient(to bottom, #323232, #272727);
   
 }
