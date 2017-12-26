@@ -105,8 +105,8 @@
   }
   
   .carousel-indicators__item {
-    -webkit-transform: scale(3) !important;
-            transform: scale(3) !important;
+    -webkit-transform: scale(3);
+            transform: scale(3);
     margin-right: 40px !important;
   }
 
