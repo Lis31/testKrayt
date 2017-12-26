@@ -103,6 +103,12 @@
     width: 90% !important;
     margin-bottom: 0 !important;
   }
+  
+  .carousel-indicators__item {
+    -webkit-transform: scale(3) !important;
+            transform: scale(3) !important;
+    margin-right: 40px !important;
+  }
 
   .carousel__block-info {
     width: 50px;
