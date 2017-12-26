@@ -100,7 +100,8 @@
   }
 
   .carousel-indicators__item {
-    transform: scale(3);
+    -webkit-transform: scale(3);
+            transform: scale(3);
     margin-right: 40px !important;
   }
 
@@ -383,6 +384,7 @@
   float: left;
   clear: both;
   height: 8px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#323232), to(#272727));
   background: linear-gradient(to bottom, #323232, #272727);
   
 }
